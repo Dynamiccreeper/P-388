@@ -224,7 +224,7 @@ spawnObstacles();
         if(frameCount % 250 === 0) {
           var obstacle = createSprite(Math.round(random(displayWidth - 20)),150,40,40);
           //obstacle.debug = true;
-          obstacle.velocityY = +(6 + 3* 50/100);
+          obstacle.velocityY = 10;
           //obstacle.addImage(obstacleImg);
           //obstacle.scale=0.1;
           obstacle.lifetime = 5000;
