@@ -121,7 +121,8 @@ if(keyWentDown("space")){
 
 
 }
-
+camera.x=rocket.x;
+camera.y=rocket.y;
     /*Engine.update(engine);
     console.log(box2.body.position.x);
     console.log(box2.body.position.y);
